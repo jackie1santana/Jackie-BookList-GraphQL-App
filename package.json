@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "build": "env-cmd -f ./config/dev.env nodemon app.js",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "build": "env-cmd -f ./config/dev.env nodemon app.js"
   },
   "author": "",
   "license": "ISC",

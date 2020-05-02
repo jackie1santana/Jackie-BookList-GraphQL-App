@@ -7,11 +7,11 @@ The user always has the abuility to select any Book by name which will render & 
 
 ### The technologies that I use is: 
 
-React for the client
+* React for the client
 
-Node.js for the backend to implement a Graphql server.
+* Node.js for the backend to implement a Graphql server.
 
-Apollo Client to query the graphQL via User which then sends the query
+* Apollo Client to query the graphQL via User which then sends the query
 back down to the graphql server which then sends off the data to the 
 mongoDB database I have hosted on a cloud.
 

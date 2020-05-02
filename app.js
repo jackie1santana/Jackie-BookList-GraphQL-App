@@ -15,6 +15,10 @@ app.use(express.static(publicDirectoryPath))
  
  mongoose.connect('mongodb+srv://jackie:1234@fcc-graphql-ikerj.mongodb.net/graphql?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 
+ app.get('', (req, res) => {
+    res.sendFile(publicDirectoryPath)
+  })
+
  app.use('/graphql', graphqlHTTP({
     schema,
     graphiql: true

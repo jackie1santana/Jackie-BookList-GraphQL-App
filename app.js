@@ -11,7 +11,7 @@ const cors = require('cors')
 const publicDirectoryPath = path.join(__dirname, '/client/build')
 app.use(express.static(publicDirectoryPath))
 
- const port = process.env.PORT || 2000
+ const port = process.env.PORT
  
  mongoose.connect('mongodb+srv://jackie:1234@fcc-graphql-ikerj.mongodb.net/graphql?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 

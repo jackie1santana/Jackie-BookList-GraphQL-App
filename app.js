@@ -21,5 +21,5 @@ app.use(express.static(publicDirectoryPath))
  }))
 
  app.listen(port, () => {
-     console.log(`server running on port ${port}`)
+     console.log(` server running on port ${port}`)
  })
